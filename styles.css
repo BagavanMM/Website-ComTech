@@ -1,0 +1,41 @@
+body {
+    background-color: #0D0D0D;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #403E3F;
+  }
+  
+  .menu li {
+    float: left;
+    position: relative
+  }
+  
+  .menu li a {
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ .menu li a:hover {
+    background-color: #6D7B8C;
+  }
+
+.intro {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    margin: 19px;
+}
+.intro a {
+    color: #6D7B8C;
+    
+  }
