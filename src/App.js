@@ -37,7 +37,7 @@ export default function App() {
         className="p-1 font-normal"
       >
         <a href="/#" className="flex items-center">
-          Account
+          Creative Past
         </a>
       </Typography>
       <Typography
@@ -47,7 +47,7 @@ export default function App() {
         className="p-1 font-normal"
       >
         <a href="/#" className="flex items-center">
-          Blocks
+          My Inspirations
         </a>
       </Typography>
       <Typography
@@ -57,7 +57,17 @@ export default function App() {
         className="p-1 font-normal"
       >
         <a href="/#" className="flex items-center">
-          Docs
+          Post-Secondary Pathways
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="/#" className="flex items-center">
+          Projects
         </a>
       </Typography>
     </ul>
@@ -72,7 +82,7 @@ export default function App() {
             href="/#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Material Tailwind
+            Bagavan Marakthalingasivam
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -125,18 +135,14 @@ export default function App() {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+            <span>Contact</span>
           </Button>
         </MobileNav>
       </Navbar>
+      <div className="h-full w-full">
+        <img src="./public/hero-heading.JPG" alt="asdf mom"></img>
+      </div>
       <div className="mx-auto max-w-screen-md py-12">
-        <Card className="mb-12 overflow-hidden">
-          <img
-            alt="nature"
-            className="h-[32rem] w-full object-cover object-center"
-            src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80"
-          />
-        </Card>
         <Typography variant="h2" color="blue-gray" className="mb-2">
           I'm Bagavan Marakathalingasivam
         </Typography>
