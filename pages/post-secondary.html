@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
@@ -29,56 +31,163 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="../index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-                <a href="creative-past.html" class="text-sm font-semibold leading-6 text-gray-900">Creative
+                <a href="../index.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 ">Home</a>
+                <a href="creative-past.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Creative
                     Past</a>
-                <a href="inspirations.html" class="text-sm font-semibold leading-6 text-gray-900">Inspirations</a>
-                <a href="post-secondary.html" class="text-sm font-semibold leading-6 text-gray-900">Post-Secondary
+                <a href="inspirations.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Inspirations</a>
+                <a href="post-secondary.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Post-Secondary
                     Pathways</a>
-                <a href="projects.html" class="text-sm font-semibold leading-6 text-gray-900">Projects</a>
+                <a href="projects.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Projects</a>
             </div>
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
-        <div class="lg:hidden" role="dialog" aria-modal="true">
-            <!-- Background backdrop, show/hide based on slide-over state. -->
-            <div class="fixed inset-0 z-50"></div>
-            <div
-                class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                <div class="flex items-center justify-between">
-                    <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Bagavan Marakathalingasivam</span>
-                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            alt="">
-                    </a>
-                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                        <span class="sr-only">Close menu</span>
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                            aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-                <div class="mt-6 flow-root">
-                    <div class="-my-6 divide-y divide-gray-500/10">
-                        <div class="space-y-2 py-6">
-                            <a href="../index.html"
-                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-                            <a href="inspirations.html"
-                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Inspirations</a>
-                            <a href="creative-past.html"
-                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Creative
-                                Past</a>
-                            <a href="post-secondary.html"
-                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Post-Secondary</a>
-                            <a href="projects.html"
-                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</a>
-                        </div>
+    
+    </header>
+    <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        aria-hidden="true">
+        <div
+          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+      </div>
+      <div
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="false">
+          <div
+            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+          </div>
+        </div>
+
+        <div class="absolute inset-0 -z-10 overflow-hidden">
+
+        </div>
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+          <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            <div class="lg:pr-4">
+              <div class="lg:max-w-lg">
+                <p class="text-base font-semibold leading-7 text-indigo-600">Post-Secondary Pathway</p>
+                <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Computer Engineering, University of Waterloo</h1>
+                <p class="mt-6 text-xl leading-8 text-gray-700">The program is designed to provide students with a comprehensive understanding of both computer science and electrical engineering principles. Waterloo's program also a strong emphasis on problem-solving.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+            <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="../images/post-waterloo.jpg" alt="">
+          </div>
+          <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            
+            <div class="lg:pr-4">
+              <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+                <ul  role="list" class="mt-0 space-y-1 text-gray-600 ">
+                  <p class="text-xl font-medium text-indigo-600">Prequisites:</p>
+                  <li class="flex gap-x-3"> 
+                    <span><strong class="font-semibold text-gray-900">Advanced Functions.</strong> (MHF4U)</span>
+                  </li>
+                  <li class="flex gap-x-3">
+
+                    <span><strong class="font-semibold text-gray-900">Calculus and Vectors.</strong> (MCV4U)</span>
+                  </li>
+                  <li class="flex gap-x-3">
+
+                    <span><strong class="font-semibold text-gray-900">Chemistry.</strong> (SCH4U)</span>
+                  </li>
+                  <li class="flex gap-x-3">
+
+                    <span><strong class="font-semibold text-gray-900">Physics.</strong> (SPH4U)</span>
+                  </li>
+                  <li class="flex gap-x-3">
+
+                    <span><strong class="font-semibold text-gray-900">English.</strong> (ENG4U)</span>
+                  </li>
+                </ul>
+                <div class="">
+                    <div class="w-full py-7 mt-2 space-y-1 ">
+                                <details class="rounded-full ">
+                                    <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-blue-100">The pros of the program</summary>
+                                    <div class=" ">
+                                        <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                            <li class="mb-2">
+                                              <span class="font-bold ">Academic Excellence:</span> The University of Waterloo is renowned for its strong engineering programs and consistently ranks among the top engineering schools in Canada and worldwide.
+                                            </li>
+                                            <li class="mb-2">
+                                              <span class="font-bold">Co-op Opportunities:</span> The university offers an extensive co-operative education program that provides students with valuable work experience in relevant industries, enhancing their skills and employability.
+                                            </li>
+                                            <li class="mb-2">
+                                              <span class="font-bold">Engineering Focus:</span> The Computer Engineering program at the University of Waterloo offers a comprehensive curriculum that combines both computer science and electrical engineering courses, providing students with a solid foundation in both disciplines.
+                                            </li>
+                                            <li class="mb-2">
+                                              <span class="font-bold">Research Opportunities:</span> The university is known for its cutting-edge research initiatives, offering students the chance to engage in innovative research projects alongside renowned faculty members.
+                                            </li>
+                                            <li class="mb-2">
+                                              <span class="font-bold">Networking and Industry Connections:</span> The university has strong ties with industry partners, providing students with networking opportunities, industry-sponsored projects, and potential job placements.
+                                            </li>
+                                          </ul>
+                                          
+                                      
+                                    </div>
+                                </details>
+                                <details class="rounded-full ">
+                                    <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-blue-100">The cons of the program</summary>
+                                    <div class=" ">
+                                        <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                            <li class="mb-2">
+                                            <span class="font-bold">Competitive Admission:</span> The Computer Engineering program at the University of Waterloo is highly competitive, with a limited number of available spots. Meeting the minimum admission requirements does not guarantee acceptance.
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="font-bold">Rigorous Curriculum:</span> The program can be academically challenging, requiring dedication and hard work to succeed. Students should be prepared for a demanding workload and rigorous coursework.
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="font-bold">Location:</span> The University of Waterloo is located in Waterloo, Ontario, which may not be the preferred location for individuals seeking a more vibrant urban setting.
+                                            </li>
+                                        </ul>
+                                          
+                                    </div>
+                                </details>
                     </div>
                 </div>
+            
+                <h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900">What about Job Opportunities?</h2>
+                <p class="mt-6">Because of the versatility of a computer engineering degree, you have a wide range of different job opportunities ranging from software to hardware.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4">
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                      <h3 class="text-xl font-semibold mb-4">Software Engineer</h3>
+                      <p class="text-gray-600">Design, develop, and test software systems, applications, and algorithms for various industries, including software development companies, technology firms, and research organizations.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Hardware Engineer</h3>
+                      <p class="text-gray-600">Design, analyze, and develop computer hardware components and systems, working on tasks such as circuit design, microprocessor development, and embedded systems programming.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Systems Engineer</h3>
+                      <p class="text-gray-600">Design and implement complex computer systems, networks, and infrastructure, ensuring optimal performance, scalability, and reliability.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Embedded Systems Engineer</h3>
+                      <p class="text-gray-600">Develop and program embedded systems, such as those used in consumer electronics, automotive systems, medical devices, or industrial automation.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Network Engineer</h3>
+                      <p class="text-gray-600">Design, configure, and maintain computer networks for organizations, ensuring smooth communication, data transfer, and security.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Artificial Intelligence/Machine Learning Engineer</h3>
+                      <p class="text-gray-600">Work on developing AI and machine learning algorithms, designing intelligent systems, and leveraging data analysis to solve complex problems.</p>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Robotics Engineer</h3>
+                      <p class="text-gray-600">Design and develop robotic systems for various applications, such as manufacturing, healthcare, and autonomous vehicles.</p>
+                    </div>
+                  </div>
+                  
+              </div>
             </div>
+          </div>
         </div>
-    </header>
-    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Post-Secondary Pathways</h1>
+      </div>
+      
 </body>
 
 </html>
