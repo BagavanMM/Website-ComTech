@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+  <header class="absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div class="flex lg:flex-1">
+              <a href="#" class="-m-1.5 p-1.5">
+                  <span class="sr-only">Welcome to my website</span>
+              </a>
+          </div>
+          <div class="flex lg:hidden">
+              <button type="button"
+                  class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+              </button>
+          </div>
+          <div class="hidden lg:flex lg:gap-x-12">
+              <a href="../index.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 ">Home</a>
+              <a href="creative-past.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Creative
+                  Past</a>
+              <a href="inspirations.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Inspirations</a>
+              <a href="post-secondary.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Post-Secondary
+                  Pathways</a>
+              <a href="projects.html" class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Projects</a>
+          </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+  
+  </header>
+  <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+      aria-hidden="true">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+      </div>
+    </div>
+    <div
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="false">
+        <div
+          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+      </div>
+
+      <div class="absolute inset-0 -z-10 overflow-hidden">
+
+      </div>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div class="lg:pr-4">
+            <div class="lg:max-w-lg">
+              <p class="text-base font-semibold leading-7 text-indigo-600">Poster Design Project</p>
+              <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">It IS a Big Deal</h1>
+              <p class="mt-6 text-xl leading-8 text-gray-700">
+                  This is the project page for my first unit project, where I designed a poster in Adobe Illustrator to promote mental health awareness
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="-ml-12 -mt-4 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden overflow-x-auto">
+          <div class="relative z-20">
+            <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] cursor-pointer" src="images/Mentalhealthposter.jpg" alt="">
+            <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-30" id="popup-overlay">
+              <div class="max-w-4xl mx-auto">
+                <img class="mx-auto max-w-full max-h-full" src="images/Mentalhealthposter.jpg" alt="">
+              </div>
+            </div>              
+          </div>
+        </div>
+        
+        
+        
+        <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          
+          <div class="lg:pr-4">
+            <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300 ">
+                <h3 class="text-xl font-semibold mb-4">Design Brief</h3>
+                <p class="text-gray-600">
+                  Mental health awareness is something that not that many people focus on in our school, and because of that, 
+                  a lot of people in our school don’t know how to deal with stress, anxiety, etc. That’s why I want to create a 
+                  poster for Unionville High School that targets students so that we can all be aware of the struggles that 
+                  people go through and how we can do something about it. By making my client UHS, I’ll be able to target my 
+                  audience effectively. The final product is a poster that captures the feeling of stress and anxiety in an 
+                  abstract way. This allows whoever is walking by to understand what the poster is trying to say without the 
+                  need for that much text. Additionally, there would be text in this poster that shows you how you can cope 
+                  with poor mental health. The main limitation with having a poster is that most of the information that you 
+                  want to convey would need to be conveyed through art/images. Having more text would most likely lead to people
+                  not spending time reading through what you have. This also means that you have to be intentional with what 
+                  kind of links you’re adding to your poster (if you’re adding any), because if you have a long link most 
+                  people probably won’t be searching it up. This final product will be pasted throughout the school on walls, 
+                  pillars, etc., which will allow me to reach more students. The ultimate goal of creating this poster is to 
+                  help spread awareness on this problem that affects a lot of people at school. This will not only help people 
+                  understand that they are not alone, but also show us how we can help people who struggle with this problem.
+                </p>
+              </div>
+              <div class="">
+                  <div class="w-full py-7 mt-2 space-y-1 ">
+                              <details class="rounded-full ">
+                                  <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-indigo-500 hover:text-white">Research Notes #1</summary>
+                                  <div class="">
+                                      <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                        <li class="mb-2">
+                                          Studies suggest that as many as 14-25% (over 800,000 in Canada) of children and youth experience significant mental health issues.
+                                        </li>
+                                        <li class="mb-2">
+                                          What’s even crazier is that this study was conducted in 2013, meaning that this state was for students 10 years ago.
+                                        </li>
+                                        <li class="mb-2">
+                                          With the pandemic, and other societal issues, the number of students with significant mental health issues has risen significantly, and it’s crazy how many people are affected by this problem.
+                                        </li>
+                                        <li class="mb-2">
+                                          They found that there was clear evidence for the effectiveness of specific school-based strategies for mental health promotion, prevention, treatment, etc.
+                                        </li>
+                                        <li class="mb-2">
+                                          A lot of students tend to resort to substance use as a treatment for improper mental health; however, this is a very controversial way of treating these issues and is something that we shouldn’t promote.
+                                        </li>
+                                        <li class="mb-2">
+                                          Instead, they suggest that we should have personalized programs for individual students who are going through issues.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    
+                              </details>
+                              <details class="rounded-full ">
+                                  <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-indigo-500 hover:text-white">Research Notes #2</summary>
+                                  <div class="">
+                                      <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                        <li class="mb-2">
+                                          In 2020, there were around 37,000 children and youth hospitalizations for mental health disorders.
+                                        </li>
+                                        <li class="mb-2">
+                                          There’s been a steady increase in students taking mood and anxiety medications each year; the rates were more than 2 times higher for females than males.
+                                        </li>
+                                        <li class="mb-2">
+                                          For example, in 2020, over 700 million students from age 5 to 24 have taken mood and anxiety medications.
+                                        </li>
+                                        <li class="mb-2">
+                                          The Kids Help Phone in 2020 reported twice as many interactions across Canada compared with 2019.
+                                        </li>
+                                        <li class="mb-2">
+                                          The main takeaway from this website is that so many more students are affected by mental health issues today than ever before, and that's led to an increase in substance use (even if it’s a medication) and unfortunately, more deaths.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    
+                              </details>
+                              <details class="rounded-full ">
+                                  <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-indigo-500 hover:text-white">Research Notes #3</summary>
+                                  <div class="">
+                                      <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                        <li class="mb-2">
+                                          This is a good website that focuses on supporting mental health for students. I could link this website in my poster design for people who want help.
+                                        </li>
+                                        <li class="mb-2">
+                                          They have resources for education and student support staff, students, parents and caregivers, school and system leaders, and school mental health professionals.
+                                        </li>
+                                        <li class="mb-2">
+                                          This website is like Google but specifically for Mental health education - you can search up different topics and find a list of resources to learn more about things.
+                                        </li>
+                                        <li class="mb-2">
+                                          They also have a “Help a friend” section for students who want to help their friends that they think are going through mental health struggles.
+                                        </li>
+                                        <li class="mb-2">
+                                          This page shows you how you can help your friends by doing things such as:
+                                          <ul class="list-disc list-inside">
+                                            <li>Checking in on each other and taking interest in what’s going on in each other’s lives.</li>
+                                            <li>Being kind - you never know what your friend or anyone else is going through/carrying.</li>
+                                            <li>Don’t put people down - try not spreading rumors, question nasty behavior.</li>
+                                            <li>Include people - Notice others and pull them in, some people just need people to talk to.</li>
+                                            <li>Help each other make safe choices - don’t let peer pressure become a “thing,” you and your friends and classmates can rise above it.</li>
+                                          </ul>
+                                        </li>
+                                        <li class="mb-2">
+                                          I think that these points are helpful for my poster because I can add advice like this for people to learn how they can help their friends.
+                                        </li>
+                                        <li class="mb-2">
+                                          Additionally, they have different help phones and steps you can take to help your friend get more support if you’re concerned:
+                                          <ul class="list-disc list-inside">
+                                            <li>Talk to a teacher, guidance counselor, or another adult that you can trust at school.</li>
+                                            <li>Talk to a parent/caregiver and ask them to make an appointment with their family doctor.</li>
+                                            <li>Kids Help Phone, a 24/7 phone line where you can speak with a trained counselor at 1-800-668-6868 or text CONNECT to 686868.</li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    
+                                    
+                              </details>
+                              <details class="rounded-full ">
+                                  <summary class="font-semibold px-4 py-2 text-indigo-600 text-lg cursor-pointer rounded-md outline outline outline-1 hover:bg-indigo-500 hover:text-white">Research Notes #4</summary>
+                                  <div class="">
+                                      <ul class="list-decimal list-inside space-y-2 leading-6 px-3 py-2 text-gray-600">
+                                        <li class="mb-2">
+                                          The Children’s Mental Health Ontario Centre helps you find a center near you for anyone who needs assistance.
+                                        </li>
+                                        <li class="mb-2">
+                                          You just need to type the region you live in, the age of the child, and the type of service you want - then it’ll show you a list of different centers near you that can help that person get assistance.
+                                        </li>
+                                        <li class="mb-2">
+                                          There is also a section on the website that gives signs of mental health struggles in children:
+                                          <ul class="list-disc list-inside">
+                                            <li>Do they have extreme outbursts or excessive mood swings?</li>
+                                            <li>Do they worry so much that they are getting stomach aches or headaches?</li>
+                                            <li>Persistent nightmares and lack of sleep.</li>
+                                            <li>Avoiding formerly enjoyable activities, like spending time with friends.</li>
+                                            <li>Unusually quiet, sad or reserved, preoccupied.</li>
+                                            <li>Change in appetite - eating considerably less or even more.</li>
+                                          </ul>
+                                        </li>
+                                        <li class="mb-2">
+                                          These suggestions are more targeted towards parents, but some of the advice can still be transferable for friends. I could still link this in my poster for people who want their friends to get assistance.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    
+                                    
+                              </details>
+                  </div>
+              </div>
+          
+              <h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900">Poster Sketches</h2>
+              <p class="mt-0">After researching and planning out what kind of poster I wanted to make, it was time to sketch a couple of different ideas
+                just to get a better sense of how I wanted to portray my message.</p>
+              <img src="images/poster-sketches.jpg" alt="poster sketches" class="mt-5 bg-white shadow-md">
+              <div class="mt-10 bg-white shadow-lg rounded-lg px-4 py-6 transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-xl font-semibold mb-2">Reflection</h3>
+                <div class="">
+                  <p>
+                    <span style="font-weight: bold;">My creative solution</span> to address the stigma surrounding mental health and lack of awareness was to design a poster for high school students that <span style="font-weight: bold;">emphasises the importance of talking about one's struggles with mental health</span>. The use of the <span style="font-weight: bold;">C.R.A.P principles</span> enhanced my design by making it stand out, easily readable, and well-organised. I used <span style="font-weight: bold;">high contrast</span> in the background to make my poster pop out, <span style="font-weight: bold;">repetition</span> to emphasise specific points, and <span style="font-weight: bold;">alignment</span> to create unison and organisation. <span style="font-weight: bold;">Proximity</span> was also used to group text together and help with organisation. <span style="font-weight: bold;">Typography</span> was used to emphasise specific points on the poster, with font and font-size varying depending on what I wanted to emphasise.
+                  </p>
+                  <p>
+                    For my chosen <span style="font-weight: bold;">colour scheme</span>, I opted for a monochromatic <span style="font-weight: bold;">light green colour</span>, as green represents mental health as being quiet and restful. A monochromatic scheme was chosen to keep the design simple and straightforward, allowing for specific parts of the poster to be emphasised. My poster demonstrates <span style="font-weight: bold;">inclusivity</span> by showing that it's okay to express yourself and seek help, creating a welcoming environment for everyone, including those from diverse backgrounds. Although not specifically targeted towards technological education courses, the poster helps to create awareness that the community is inclusive and welcoming to all.
+                  </p>
+                  <p>
+                    The image of a person curled up behind a door represents how people with mental health struggles feel, trapping their emotions and not expressing them to others. The accompanying text emphasises the <span style="font-weight: bold;">importance of talking to others about one's problems and the stigma surrounding mental health</span>. The phone number and hashtags provided encourage students to seek help and support. The design's message is clear and effective, communicating with the target audience by appealing to their emotions and addressing a relevant social justice theme. <span style="font-weight: bold;">Cultural sensitivity</span> is included in the design, as mental health struggles can affect individuals from all backgrounds and cultures, and it's essential to create awareness and support for everyone.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script>
+    const image = document.querySelector('.relative img');
+    const popupOverlay = document.getElementById('popup-overlay');
+
+    image.addEventListener('click', () => {
+      popupOverlay.classList.toggle('hidden');
+    });
+
+    popupOverlay.addEventListener('click', () => {
+      popupOverlay.classList.add('hidden');
+    });
+
+  </script>
+
+      
+</body>
+
+</html>
