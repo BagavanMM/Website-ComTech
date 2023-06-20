@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <script src="../script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
 
 </head>
 
@@ -44,26 +45,71 @@
                     class="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">Projects</a>
             </div>
         </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
 
     </header>
     <div class="bg-white py-24 sm:py-32">
         <div class="relative isolate px-6 pt-14 lg:px-8">
-            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                aria-hidden="true">
-                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            aria-hidden="true">
+            <div
+              class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
             </div>
-            <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-                aria-hidden="false">
-                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
+          </div>
+          <div
+              class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+              aria-hidden="false">
+              <div
+                class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+              </div>
             </div>
-        </div>
-    </div>
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Most Recent Creative <a
+                  class="text-indigo-600">Projects</a></h2>
+              <p class="mt-2 text-lg leading-8 text-gray-600">Here are the three main projects I worked on over the course of the semester. 
+              </p>
+            </div>
+            <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"></div>
+          <div class="relative">
+            <div id="about" class="shadow-2xl text-left mx-auto box-border border-slate-300 max-w-6xl bg-white">
+              <div id="heading" class="mx-8 my-8 py-6 columns-2 gap-12">
+                <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl ">About Me</h3>
+                <div class="col-span-1 py-4">
+                  <p class="text-md font-light">
+                    Hey, I'm <span class="text-indigo-600 font-bold">Bagavan Marakathalingasivam</span>! I'm a Grade 11 student attending Unionville High School in Markham, Ontario. I'm incredibly passionate about the intersection of <span class="font-bold">creative art and technology</span>. Throughout this semester and the school year, my goals are to <span class="font-bold">excel academically</span>, actively participate in <span class="font-bold">STEM-related clubs and competitions</span>, and explore internship opportunities to gain practical experience in my field of interest.
+                  </p>
+                  
+                  <p class="text-md font-light py-3">
+                    On a personal level, I'm constantly inspired by the limitless possibilities in the world of technology. I find great joy in combining art and technology to express myself through various digital media and interactive experiences. It's fascinating to me how <span class="font-bold">innovation and creativity</span> can come together to create something truly impactful. I'm also motivated by influential figures in the tech industry who continuously push boundaries and make positive contributions to society.
+                  </p>
+                  <div class="py-3">
+                    <button class="rounded-md bg-indigo-500 text-white px-4 py-2 hover:shadow-md">
+                      <a href="pages/projects.html">
+                        Check out some of my projects
+                      </a>
+                    </button>
+                  </div>
+                 
+                </div>
+                <div class="col-span-2">
+                  <img src="../images/projects/Mentalhealthposter.jpg" alt="Profile Picture" class=" max-h-69">
+                </div>
+            
+                </div>
+              </div>
+            </div>
+        
+
+          
 
 
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+      
 
-</html>
